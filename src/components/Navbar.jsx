@@ -25,16 +25,13 @@ const Navbar = () => {
         </li>
         <li className="navbar-item">
           <NavLink
-            to="/portfolio"
+            to="/project"
             className="navbar-link"
             activeClassName="active"
           >
-            Portfolio
+            Project
           </NavLink>
         </li>
-        {/* <li class="navbar-item">
-          <button class="navbar-link" data-nav-link>Blog</button>
-        </li> */}
         <li className="navbar-item">
           <NavLink
             to="/contact"

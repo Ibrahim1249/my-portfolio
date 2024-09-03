@@ -70,7 +70,7 @@ function Aside() {
          </div>
          <div className="contact-info">
            <p className="contact-title">Birthday</p>
-           <time dateTime="1982-06-23">Oct 01, 2001</time>
+           <time dateTime="1982-06-23">Oct 01 - 2001</time>
          </div>
        </li>
        <li className="contact-item">
