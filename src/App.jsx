@@ -6,6 +6,7 @@ import Resume from './components/Resume'
 import Project from './components/Project'
 import Contact from './components/Contact'
 
+
 function App() {
   const appRouter = createBrowserRouter([{
     path : "/",
