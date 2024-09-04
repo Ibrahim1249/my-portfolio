@@ -11,7 +11,8 @@ function Contact() {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const handleSendMessage = ()=>{
+  const handleSendMessage = (e)=>{
+    e.preventDefault();
     if(fullName === "" && email === "" && message === ""){
        return;
     }
@@ -86,7 +87,7 @@ function Contact() {
             onChange={(e) => setMessage(e.target.value)}
             value={message}            
           />
-          <button className="form-btn" type="submit" data-form-btn="" onClick={(e)=>{e.preventDefault();handleSendMessage();}}>
+          <button className="form-btn" type="submit" data-form-btn="" onClick={handleSendMessage}>
             <ion-icon name="paper-plane" />
             <span>Send Message</span>
           </button>
