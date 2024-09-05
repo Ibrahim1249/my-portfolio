@@ -29,11 +29,17 @@ function Resume() {
           <h3 className="h3">Education</h3>
         </div>
         <ol className="timeline-list">
+        <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">
+               Geekster , Full Stack Bootcamp - remote
+            </h4>
+            <span>2023 - present</span>
+          </li>
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">
                Theem College of Engineering , Boisar 
             </h4>
-            <span>2018 - 2022</span>
+            <span>2019 - 2023</span>
             <p className="timeline-text">
               B.Tech - Computer Science and Engineering - 8.57 CGPA
             </p>
@@ -42,14 +48,14 @@ function Resume() {
             <h4 className="h4 timeline-item-title">
               Scholar Jr College, Bhiwandi
             </h4>
-            <span>2017 - 2018</span>
+            <span>2017 - 2019</span>
             <p className="timeline-text">12th - 64%</p>
           </li>
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">
               Al-Ummat English High School, Bhiwandi
             </h4>
-            <span>2015 - 2016</span>
+            <span>2007 - 2017</span>
             <p className="timeline-text">10th - 69%</p>
           </li>
         </ol>

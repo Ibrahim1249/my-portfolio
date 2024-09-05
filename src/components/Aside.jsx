@@ -24,7 +24,7 @@ function Aside() {
        <h1 className="name" title="Ibrahim Momin">
        Ibrahim Momin
        </h1>
-       <p className="title">Web developer</p>
+       <p className="title">Full Stack Developer</p>
      </div>
 
      <button 
