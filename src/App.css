@@ -812,6 +812,19 @@ article {
 
 
   /*** Responsive ***/
+  @media (max-width: 420px){
+    .project-img { height: auto; }
+    .skill-list {
+      flex-wrap:  wrap;
+      gap: 0.5rem;
+      justify-content: center;
+   
+    }
+    .skills-list{
+      width: 3rem;
+      margin-bottom: 1rem;
+    }
+  }
   @media (min-width: 450px) {
     .project-img { height: auto; }
     .skill-list {
